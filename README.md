@@ -33,4 +33,35 @@ The following are the main text preprocessing steps:
 
 The specific text preprocessing steps that are performed will depend on the specific NLP task that is being performed. For example, text classification tasks typically only require tokenization, lowercasing, and removal of stop words. Named entity recognition tasks typically require tokenization, lowercasing, removal of stop words, stemming, and lemmatization.
 
-#NLP
+
+👉🏻 **Procedure in NLP:**
+
+1. Import necessary libraries like NLTK and SpaCy.
+2. Load the dataset.
+3. Text preprocessing including removing HTML tags, punctuation, stemming, stop words, and expanding contractions.
+4. Tokenization to break sentences into words.
+5. Stemming to reduce words to their base form.
+6. Part-of-speech (POS) tagging to identify grammatical elements.
+7. Lemmatization to transform words into their dictionary form.
+8. Apply label encoding to convert labels into numerical values.
+9. Feature extraction from the text.
+10. Text to numerical vector conversion using techniques like BOW, TFIDF, Word2Vec, and GloVe.
+11. Data preprocessing steps.
+12. Model building.
+
+**Terms in NLP:**
+- Document: A row in the dataset.
+- Corpus: Collection of all documents.
+- Vocabulary: Unique words in the corpus.
+- Segmentation: Breaking multiple sentences into individual sentences.
+- Tokenization: Splitting sentences into words.
+- StopWords: Commonly used words in a language.
+- Stemming: Reducing words to their root form.
+- Lemmatization: Converting words to their base form using a dictionary.
+- NER Tagging: Adding tags to words for entities like names and places.
+- POS Tagging: Labeling words with their parts of speech.
+- Chunking: Converting sentences into flat trees.
+
+**Text Pre-Processing Steps:**
+Text preprocessing is essential in NLP to clean and prepare text data for analysis. Basic techniques include lowering case, removing punctuation, special characters, numbers, HTML tags, URLs, and extra spaces. Advanced techniques involve tokenization, stop word removal, stemming, and lemmatization. More advanced techniques include POS tagging and Named Entity Recognition (NER).
+
